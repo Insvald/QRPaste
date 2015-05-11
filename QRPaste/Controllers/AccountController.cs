@@ -13,7 +13,7 @@ using QRPaste.Models;
 namespace QRPaste.Controllers
 {
     [Authorize]
-    public class AccountController : Controller
+    public class AccountController : CultureAwareController
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;

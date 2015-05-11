@@ -29,5 +29,7 @@ namespace QRPaste.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<QRPaste.Models.Clip> Clips { get; set; }
     }
 }

@@ -26,6 +26,10 @@ namespace QRPaste
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap-rtl").Include(
+                      "~/Scripts/bootstrap-rtl.js",
+                      "~/Scripts/respond.js"));
         }
     }
 }

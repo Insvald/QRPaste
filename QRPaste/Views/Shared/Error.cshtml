@@ -1,9 +1,10 @@
 ﻿@model System.Web.Mvc.HandleErrorInfo
+@using QRPaste.Resources
 
 @{
-    ViewBag.Title = "Error";
+    ViewBag.Title = Resource.ErrorTitle;
 }
 
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
+<h1 class="text-danger">@Resource.ErrorCaption</h1>
+<h2 class="text-danger">@Resource.ErrorDescription</h2>
 

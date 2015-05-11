@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QRPaste.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,25 +7,19 @@ using System.Web.Mvc;
 
 namespace QRPaste.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : CultureAwareController
     {
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult SetCulture(string culture)
         {
-            ViewBag.Message = "Your application description page.";
+            // Validate input & set culture
+            RouteData.Values["culture"] = CultureHelper.GetImplementedCulture(culture);  
 
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }

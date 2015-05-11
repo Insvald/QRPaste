@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRPaste", "QRPaste\QRPaste.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRPaste.Tests", "QRPaste.Tests\QRPaste.Tests.csproj", "{B66F27B5-A899-471A-953D-F5F5BF102EDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRPaste.Resources", "QRPaste.Resources\QRPaste.Resources.csproj", "{C32FEDD0-8128-41D6-8502-B54FD52F8E5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B66F27B5-A899-471A-953D-F5F5BF102EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B66F27B5-A899-471A-953D-F5F5BF102EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B66F27B5-A899-471A-953D-F5F5BF102EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32FEDD0-8128-41D6-8502-B54FD52F8E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32FEDD0-8128-41D6-8502-B54FD52F8E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32FEDD0-8128-41D6-8502-B54FD52F8E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32FEDD0-8128-41D6-8502-B54FD52F8E5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
